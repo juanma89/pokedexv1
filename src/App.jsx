@@ -7,11 +7,11 @@ import React from "react";
 // import Estilos from "./components/Estilos";
 import CrudApp from "./components/crud/CrudApp";
 
-import NavScrollExample from "./components/Navbar";
+// import NavScrollExample from "./components/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const App1 = () => {
-  return (
+  return ( <>
     <div>
       {/* <Texto name="Juan" apellido="Pérez" edad={35} />
       <Texto name="Raúl" apellido="Romero" edad={45} />
@@ -24,6 +24,7 @@ const App1 = () => {
       <NavScrollExample /> */}
       <CrudApp/>
     </div>
+    </>
   );
 };
 
