@@ -5,14 +5,16 @@ import React from "react";
 // import Pokemones from "./components/pokemones";
 // import Referencia from "./components/referencia";
 // import Estilos from "./components/Estilos";
-import CrudApp from "./components/crud/CrudApp";
+//import CrudApp from "./components/crud/CrudApp";
+import CrudAPI from "./components/crud/CrudAPI";
 
 // import NavScrollExample from "./components/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-const App1 = () => {
+const App = () => {
   return ( <>
-    <div>
+    <div className="container">
+      <CrudAPI/>
       {/* <Texto name="Juan" apellido="Pérez" edad={35} />
       <Texto name="Raúl" apellido="Romero" edad={45} />
       <Contador />
@@ -21,11 +23,11 @@ const App1 = () => {
       <Pokemones />
       <Referencia />
       <Estilos />
-      <NavScrollExample /> */}
-      <CrudApp/>
+      <NavScrollExample />
+      <CrudApp/> */}
     </div>
     </>
   );
 };
 
-export default App1;
+export default App;

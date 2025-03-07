@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 
 const CrudForm = ({ addEquipo, editEquipo, editData }) => {
   useEffect(() => {
-    console.log(editData);
   }, [editData]);
 
   const [formData, setFormData] = useState({

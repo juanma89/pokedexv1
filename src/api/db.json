@@ -1,0 +1,29 @@
+{
+  "equipos": [
+    {
+      "id": "1741328873062",
+      "equipo": "Necaxa",
+      "pais": "México"
+    },
+    {
+      "id": "1741328886100",
+      "equipo": "Monterrey Rayados",
+      "pais": "México"
+    },
+    {
+      "id": "1741328930898",
+      "equipo": "Xolos",
+      "pais": "México"
+    },
+    {
+      "id": "1741328990448",
+      "equipo": "River Plate",
+      "pais": "Argentina"
+    },
+    {
+      "id": "1741329002761",
+      "equipo": "Boca Juniors",
+      "pais": "Argentina"
+    }
+  ]
+}
